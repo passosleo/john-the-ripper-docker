@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Verifica se o arquivo senhas.txt existe
 if [ ! -f "/data/senhas.txt" ]; then
   echo "Arquivo senhas.txt não encontrado!"
   exit 1
